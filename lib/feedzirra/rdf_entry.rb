@@ -8,5 +8,6 @@ module Feedzirra
     element :"content:encoded", :as => :content
     element :description, :as => :summary
     element :"dc:date", :as => :published
+    element :"wfw:commentRss", :as => :comment_rss
   end
 end

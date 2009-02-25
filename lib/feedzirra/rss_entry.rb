@@ -12,5 +12,6 @@ module Feedzirra
     element :pubDate, :as => :published
     element :"dc:date", :as => :published
     elements :category, :as => :categories
+    element :"wfw:commentRss", :as => :comment_rss
   end
 end

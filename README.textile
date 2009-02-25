@@ -75,6 +75,7 @@ entry.summary    # => "..."
 entry.content    # => "..."
 entry.published  # => Thu Jan 29 17:00:19 UTC 2009 # it's a Time object
 entry.categories # => ["...", "..."]
+entry.comment_rss # => "http://gizmodo.com/index.php?op=postcommentfeed&postId=5159785&view=rss&microfeed=true"
 
 # sanitizing an entry's content
 entry.title.sanitize   # => returns the title with harmful stuff escaped

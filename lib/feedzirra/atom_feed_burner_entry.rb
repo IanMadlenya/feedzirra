@@ -10,5 +10,6 @@ module Feedzirra
     element :content
     element :published
     elements :category, :as => :categories, :value => :term
+    element :"wfw:commentRss", :as => :comment_rss
   end
 end
